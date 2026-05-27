@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vinilos históricos de Córdoba</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow: 0 0 15px rgba(255,0,60,0.2);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(255,0,60,0.6);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .rating {
+            color: #ff003c;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Vinilos históricos</h1>
+
+    <h2>6 discos clave en la cultura musical</h2>
+
+    <p>
+        Una selección de vinilos influyentes en la historia del rock argentino 
+        y su circulación en la cultura musical cordobesa.
+    </p>
+
+    <div class="grid">
+
+        <!-- 1 -->
+        <div class="card">
+            <img src="https://indiehoy.com/wp-content/uploads/2022/04/almendra.jpg">
+            <h2>Almendra I</h2>
+            <p>Almendra</p>
+            <p class="rating">⭐ 9.8</p>
+        </div>
+
+        <!-- 2 -->
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6k0HrP9CPAklxDhQb6Rz9N5MFEyYhztLqeg&s">
+            <h2>Artaud</h2>
+            <p>Luis Alberto Spinetta</p>
+            <p class="rating">⭐ 9.7</p>
+        </div>
+
+        <!-- 3 -->
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDgrUq_5yyDe0tJul3k3RAANohsvUHC7fZYA&sg">
+            <h2>La grasa de las capitales</h2>
+            <p>Serú Girán</p>
+            <p class="rating">⭐ 9.6</p>
+        </div>
+
+        <!-- 4 -->
+        <div class="card">
+            <img src="https://i.ytimg.com/vi/ogdU3iH9_qI/maxresdefault.jpg">
+            <h2>Instituciones</h2>
+            <p>Sui Generis</p>
+            <p class="rating">⭐ 9.5</p>
+        </div>
+
+        <!-- 5 -->
+        <div class="card">
+            <img src="https://es.rollingstone.com/wp-content/uploads/2023/10/1-WEB-APERTURA-Charly-Garcia-UBERTO-SAGRAMOSSO-6-ALTAS-CHARLY-GARCIA-UBERTO-SAGRAMOSSO-Nuevos-Trapos-3-Ret-RS.jpg">
+            <h2>Clics Modernos</h2>
+            <p>Charly García</p>
+            <p class="rating">⭐ 9.7</p>
+        </div>
+
+        <!-- 6 -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Los_Redondos_-_Oktubre.jpg">
+            <h2>Oktubre</h2>
+            <p>Patricio Rey y sus Redonditos de Ricota</p>
+            <p class="rating">⭐ 9.6</p>
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <!-- Navegación -->
+    <a href="index.html">Volver al inicio</a>
+
+    <br><br>
+
+    <a href="playlist.html">Explora en una playlist</a>
+
+</body>
+</html>
